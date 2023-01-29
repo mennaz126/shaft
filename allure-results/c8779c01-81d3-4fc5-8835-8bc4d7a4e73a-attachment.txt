@@ -1,0 +1,52 @@
+[INFO ] 2023-01-29 11:38:37.637 [main] ReportManager - 
+################################################################################################################################################
+Detected SHAFT Engine Version: "SHAFT Engine v7.1.20230125"
+################################################################################################################################################
+[INFO ] 2023-01-29 11:38:39.703 [main] ReportManager - Loaded OpenCV "opencv_java460".
+[INFO ] 2023-01-29 11:38:39.704 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-01-29 11:38:39.845 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-01-29 11:38:40.639 [main] Utils - [TestNG] Running:
+  C:\Users\MEid\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-01-29 11:38:40.668 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"io.github.shafthq.shaft.listeners.helpers.ConfigurationHelper.suiteSetup"
+################################################################################################################################################
+[INFO ] 2023-01-29 11:38:40.690 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-01-29 11:38:40.695 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-01-29 11:38:40.887 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"firsttestshaft.Openbrowser"
+################################################################################################################################################
+[INFO ] 2023-01-29 11:38:40.903 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"".
+[INFO ] 2023-01-29 11:38:40.904 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"".
+[INFO ] 2023-01-29 11:38:40.928 [main] ReportManager - Attempting to run locally on: "Windows-64 | Google chrome".
+[INFO ] 2023-01-29 11:38:40.929 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-01-29 11:38:41.357 [main] ResolutionCache - Resolution chrome=109 in cache (valid until 11:50:24 29/01/2023 EET)
+[DEBUG] 2023-01-29 11:38:41.359 [main] ResolutionCache - Resolution chrome109=109.0.5414.74 in cache (valid until 09:49:19 30/01/2023 EET)
+[INFO ] 2023-01-29 11:38:41.360 [main] WebDriverManager - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[DEBUG] 2023-01-29 11:38:41.375 [main] WebDriverManager - Driver chromedriver 109.0.5414.74 found in cache
+[INFO ] 2023-01-29 11:38:41.380 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MEid\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[INFO ] 2023-01-29 11:38:43.192 [main] ReportManager - Successfully Opened: "Windows-64 | Google chrome".
+[INFO ] 2023-01-29 11:38:43.204 [main] ReportManager - Target URL: "https://www.unioncoop.ae/"
+[INFO ] 2023-01-29 11:38:43.281 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-01-29 11:38:58.242 [main] ReportManager - Navigate to url "https://www.unioncoop.ae/".
+[INFO ] 2023-01-29 11:39:03.343 [main] ReportManager - Click "Fresh Food".
+[INFO ] 2023-01-29 11:39:06.057 [main] ReportManager - Double click "By.xpath: /html/body/div[1]/main/div[3]/div/div[3]/div[3]/div[1]/div[2]/div/div/div/div[2]/div/a".
+[INFO ] 2023-01-29 11:39:10.706 [main] ReportManager - Click "Al Ain Farm Chilled Poultry Chicken - 750 g".
+[INFO ] 2023-01-29 11:39:13.546 [main] ReportManager - Click "+".
+[INFO ] 2023-01-29 11:39:14.846 [main] ReportManager - Click " My Cart".
+[INFO ] 2023-01-29 11:40:14.954 [main] ReportManager - Expected condition failed: waiting for io.github.shafthq.shaft.gui.element.ElementActionsHelper$$Lambda$859/0x00000008011745b0@53bc8c7e (tried for 60 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"css selector","selector":"#top\-cart\-btn\-checkout"}
+[INFO ] 2023-01-29 11:40:17.251 [main] ReportManager - Successfully created attachment "Screenshot - 1674985216133_Openbrowser_Identify unique element_failed"
+[INFO ] 2023-01-29 11:40:17.254 [main] ReportManager - Successfully created attachment "Element Action Exception - Identify unique element - Stacktrace"
+[INFO ] 2023-01-29 11:40:17.270 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Current Method log: Openbrowser"
+[INFO ] 2023-01-29 11:40:17.445 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"io.github.shafthq.shaft.listeners.helpers.ConfigurationHelper.suiteTeardown"
+################################################################################################################################################
+[INFO ] 2023-01-29 11:40:17.447 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Execution log"
+[INFO ] 2023-01-29 11:40:17.448 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-01-29 11:40:17.448 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

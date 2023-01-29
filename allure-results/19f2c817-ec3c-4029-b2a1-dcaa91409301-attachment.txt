@@ -1,0 +1,22 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"firsttestshaft.Openbrowser"
+################################################################################################################################################
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @29-01-2023 11:38:40.0903 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @29-01-2023 11:38:40.0904 AM
+[ReportManager] Attempting to run locally on: "Windows-64 | Google chrome". @29-01-2023 11:38:40.0928 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @29-01-2023 11:38:40.0929 AM
+[ReportManager] Successfully Opened: "Windows-64 | Google chrome". @29-01-2023 11:38:43.0186 AM
+[ReportManager] Target URL: "https://www.unioncoop.ae/" @29-01-2023 11:38:43.0203 AM
+[ReportManager] Initial URL: "data:," @29-01-2023 11:38:43.0281 AM
+[ReportManager] Navigate to url "https://www.unioncoop.ae/". @29-01-2023 11:38:58.0242 AM
+[ReportManager] Click "Fresh Food". @29-01-2023 11:39:03.0343 AM
+[ReportManager] Double click "By.xpath: /html/body/div[1]/main/div[3]/div/div[3]/div[3]/div[1]/div[2]/div/div/div/div[2]/div/a". @29-01-2023 11:39:06.0056 AM
+[ReportManager] Click "Al Ain Farm Chilled Poultry Chicken - 750 g". @29-01-2023 11:39:10.0705 AM
+[ReportManager] Click "+". @29-01-2023 11:39:13.0545 AM
+[ReportManager] Click " My Cart". @29-01-2023 11:39:14.0845 AM
+[ReportManager] Expected condition failed: waiting for io.github.shafthq.shaft.gui.element.ElementActionsHelper$$Lambda$859/0x00000008011745b0@53bc8c7e (tried for 60 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"css selector","selector":"#top\-cart\-btn\-checkout"} @29-01-2023 11:40:14.0954 AM
+[ReportManager] Failed to Identify unique element "zero elements found matching this locator". @29-01-2023 11:40:17.0231 AM
+[ReportManager] Successfully created attachment "Screenshot - 1674985216133_Openbrowser_Identify unique element_failed" @29-01-2023 11:40:17.0251 AM
+[ReportManager] Successfully created attachment "Element Action Exception - Identify unique element - Stacktrace" @29-01-2023 11:40:17.0253 AM
